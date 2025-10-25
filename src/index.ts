@@ -3,7 +3,7 @@ export default function memPeak() {
 
 	const sample = () => {
 		// optional: run node with --expose-gc to reduce sampling noise
-		;(global as any).gc?.()
+		;(global).gc?.()
 		const { heapUsed } = process.memoryUsage()
 		if (BigInt(heapUsed) > peak) peak = BigInt(heapUsed)
 	}
