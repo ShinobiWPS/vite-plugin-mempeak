@@ -1,6 +1,6 @@
 {
    "name": "vite-plugin-mempeak",
-   "version": "0.2.0",
+   "version": "1.0.0",
    "type": "module",
    "author": "Alexandru \"ShinobiWPS\" Gherasim (https://shinobiwps.com)",
    "homepage": "https://github.com/shinobiwps/vite-plugin-mempeak",
