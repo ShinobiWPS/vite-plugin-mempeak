@@ -9,12 +9,12 @@ export default function memPeak() {
 	}
 
 	return {
-		name: 'vite-plugin-mem-peak',
+		name: 'mempeak',
 		apply: 'build',
 		buildStart() {
 			sample()
 			const mb = Number(peak) / 1024 / 1024
-			console.log(`[mem-peak] V8 heap peak: ${mb.toFixed(1)} MB`)
+			console.log(`[mempeak] V8 heap peak: ${mb.toFixed(1)} MB`)
 		},
 		transform() {
 			sample()
@@ -26,7 +26,7 @@ export default function memPeak() {
 		closeBundle() {
 			sample()
 			const mb = Number(peak) / 1024 / 1024
-			console.log(`[mem-peak] V8 heap peak: ${mb.toFixed(1)} MB`)
+			console.log(`[mempeak] V8 heap peak: ${mb.toFixed(1)} MB`)
 			console.log(`close bundle`)
 		},
 	}

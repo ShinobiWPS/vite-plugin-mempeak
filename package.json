@@ -23,7 +23,7 @@
    },
    "scripts": {
       "dev": "tsdown --watch",
-      "build": "tsdown"
+      "build": "tsdown --dts"
    },
    "devDependencies": {
       "@biomejs/biome": "2.2.5",
