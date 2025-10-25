@@ -4,6 +4,7 @@
    "type": "module",
    "author": "Alexandru \"ShinobiWPS\" Gherasim (https://shinobiwps.com)",
    "homepage": "https://github.com/shinobiwps/vite-plugin-mempeak",
+   "description": "A Vite plugin for heap memory usage tracking at build-time.",
    "repository": {
       "type": "git",
       "url": "https://github.com/shinobiwps/vite-plugin-mempeak.git"
